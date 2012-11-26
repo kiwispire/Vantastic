@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:stretchColumns="1,2,3"
+        android:shrinkColumns="0" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Telecom Auckland Inter-Office Shuttle" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Departs"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="Arrives"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:weightSum="4" >
+
+            <TextView
+                android:layout_column="0"
+                android:layout_weight="0"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:text="Hardinge St"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:padding="5dp"
+                android:text="Wyndham St"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Airedale St"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_column="3"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Hardinge St"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+<ScrollView android:id="@+id/ScrollView01" 
+		android:layout_height="wrap_content" 
+		android:isScrollContainer="true" 
+		android:layout_width="fill_parent"
+		android:layout_weight="1">
+		
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:stretchColumns="0,1,2,3" >
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#00F"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="08:00"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="08:03"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="08:13"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="08:23"
+            android:textColor="#FFF" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:gravity="center" 
+        >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="08:25"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="08:28"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="08:38"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="08:48"
+            android:textColor="#000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#00F"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="08:50"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="08:53"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="09:03"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="09:13"
+            android:textColor="#FFF" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="09:15"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="09:18"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="09:28"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="09:38"
+            android:textColor="#000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#00F"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="09:40"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="09:43"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="09:53"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="10:03"
+            android:textColor="#FFF" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="10:05"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="10:08"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="10:15"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="10:22"
+            android:textColor="#000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#00F"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="10:25"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="10:28"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="10:35"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="10:42"
+            android:textColor="#FFF" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="10:45"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="10:48"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="10:55"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="11:02"
+            android:textColor="#000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#00F"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="11:05"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="11:08"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="11:15"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="11:22"
+            android:textColor="#FFF" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="11:25"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="11:28"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="11:35"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="11:42"
+            android:textColor="#000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#00F"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="11:45"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="11:48"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="11:55"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="12:02"
+            android:textColor="#FFF" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="12:05"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="12:08"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="12:15"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="12:22"
+            android:textColor="#000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#00F"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="12:25"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="12:28"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="12:35"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="12:42"
+            android:textColor="#FFF" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="12:45"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="12:48"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="12:55"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="13:02"
+            android:textColor="#000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#00F"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="13:05"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="13:08"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="13:15"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="13:22"
+            android:textColor="#FFF" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="13:25"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="13:28"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="13:35"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="13:42"
+            android:textColor="#000" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#00F"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="13:45"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="13:48"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="13:55"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="14:02"
+            android:textColor="#FFF" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="14:05"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="14:08"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="14:15"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="14:22"
+            android:textColor="#000" />
+    </TableRow>
+    
+    <TableRow
+        android:layout_weight="1"
+        android:background="#00F"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="14:25"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="14:28"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="14:35"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="14:42"
+            android:textColor="#FFF" />
+    </TableRow>
+    
+    <TableRow
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="14:45"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="14:48"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="14:55"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="15:02"
+            android:textColor="#000" />
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:background="#00F"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="15:05"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="15:08"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="15:18"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="15:28"
+            android:textColor="#FFF" />
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="15:30"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="15:33"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="15:43"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="15:53"
+            android:textColor="#000" />
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:background="#00F"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="15:55"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="15:58"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="16:08"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="16:18"
+            android:textColor="#FFF" />
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="16:20"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="16:23"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="16:33"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="16:43"
+            android:textColor="#000" />
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:background="#00F"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="16:45"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="16:48"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="16:58"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="17:08"
+            android:textColor="#FFF" />
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_column="0"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="17:10"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="17:13"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="2"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="17:23"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_column="3"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="17:33"
+            android:textColor="#000" />
+    </TableRow>
+</TableLayout>
+
+</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TextView android:id="@+id/Title"
+	android:layout_height="wrap_content"  
+	android:text="VANTASTIC!" 
+	android:textSize="45sp" 
+	android:textStyle="bold" 
+	android:textColor="#0F0" 
+	android:layout_width="fill_parent" 
+	android:padding="10dp" 
+	android:gravity="center">
+	</TextView>
+	
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:padding="10px" 
+    android:text="This is a simple application designed for allowing Telecom NZ (Auckland) employees to easily see the inter-office shuttle schedule and help them plan thier inter-office trips. \n\n Any comments / suggestions about the application contact the developer."
+    />
+	
+<Button 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:layout_margin="5px" 
+	android:text="Continue" 
+	android:id="@+id/Button_Continue" 
+	android:layout_gravity="center">
+	</Button>
+	
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="bottom|right"
+	android:id="@+id/ver"
+	android:text="v 1.0.3 - Last Updated 30th Mar 2011"
+	android:textColor="#0AF"
+	/>
+	
+</LinearLayout>

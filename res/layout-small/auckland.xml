@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+<ScrollView android:id="@+id/ScrollView01" android:layout_height="wrap_content" android:isScrollContainer="true" android:layout_width="fill_parent" android:layout_weight="1">
+		
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:weightSum="4" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1,2,3" android:shrinkColumns="0">
+  
+  <TableRow android:gravity="center" android:weightSum="4">
+  		<TextView android:gravity="center" android:layout_weight="4" android:textStyle="bold" android:text="Auckland Airport to CBD Shuttle" />
+  </TableRow>
+
+  <TableRow
+      android:gravity="center"
+      android:weightSum="4" >
+
+      <TextView
+          android:layout_column="0"
+          android:layout_span="1"
+          android:gravity="center"
+          android:padding="0px"
+          android:text="Depart"
+          android:textStyle="bold" />
+
+      <TextView
+          android:layout_column="1"
+          android:layout_span="3"
+          android:gravity="center"
+          android:padding="0px"
+          android:text="Arrive (Estimated)"
+          android:textStyle="bold" />
+  </TableRow>
+
+  <TableRow
+      android:gravity="center"
+      android:weightSum="4" >
+
+			<TextView android:layout_column="0" android:layout_weight="1" android:text="Airport" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="1" android:layout_weight="1" android:text="Telecom Place" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="2" android:layout_weight="1" android:text="Wyndham St" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="3" android:layout_weight="1" android:text="Airedale St" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+  </TableRow>
+  <TableRow android:gravity="center" android:weightSum="4">
+			<TextView android:layout_column="0" android:layout_weight="1" android:text="7:45" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="1" android:layout_weight="1" android:text="8:20" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="2" android:layout_weight="1" android:text="8:25" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="3" android:layout_weight="1" android:text="8:30" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+  </TableRow>
+  <TableRow android:gravity="center" android:weightSum="4">
+			<TextView android:layout_column="0" android:layout_weight="1" android:text="8:15" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="1" android:layout_weight="1" android:text="8:55" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="2" android:layout_weight="1" android:text="9:00" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="3" android:layout_weight="1" android:text="9:05" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+  </TableRow>
+  <TableRow android:gravity="center" android:weightSum="4">
+			<TextView android:layout_column="0" android:layout_weight="1" android:text="8:30" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="1" android:layout_weight="1" android:text="9:10" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="2" android:layout_weight="1" android:text="9:15" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="3" android:layout_weight="1" android:text="9:20" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+  </TableRow>
+  <TableRow android:gravity="center" android:weightSum="4">
+			<TextView android:layout_column="0" android:layout_weight="1" android:text="8:45" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="1" android:layout_weight="1" android:text="9:20" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="2" android:layout_weight="1" android:text="9:25" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="3" android:layout_weight="1" android:text="9:30" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+  </TableRow>
+  
+  <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <TextView android:text="spacer" android:visibility="invisible"></TextView>
+  </TableRow>
+
+  <TableRow
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1" >
+
+      <TextView
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="CBD to Auckland Airport Shuttle"
+          android:textStyle="bold" />
+  
+  </TableRow>
+<TableRow
+    android:gravity="center"
+    android:weightSum="4" >
+
+    <TextView
+        android:layout_column="0"
+        android:layout_span="3"
+        android:gravity="center"
+        android:padding="0px"
+        android:text="Depart"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_column="3"
+        android:layout_span="3"
+        android:gravity="center"
+        android:padding="0px"
+        android:text="Arrive"
+        android:textStyle="bold" />
+</TableRow>
+
+  <TableRow
+      android:gravity="center"
+      android:weightSum="4" >
+
+			<TextView android:layout_column="0" android:layout_weight="1" android:text="Airdale St" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="1" android:layout_weight="1" android:text="Wyndham St" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="2" android:layout_weight="1" android:text="Telecom Place" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="3" android:layout_weight="1" android:text="Airport" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+  </TableRow>
+  <TableRow android:gravity="center" android:weightSum="4">
+			<TextView android:layout_column="0" android:layout_weight="1" android:text="15:25" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="1" android:layout_weight="1" android:text="15:35" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="2" android:layout_weight="1" android:text="15:40" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="3" android:layout_weight="1" android:text="16:30" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+  </TableRow>
+  <TableRow android:gravity="center" android:weightSum="4">
+			<TextView android:layout_column="0" android:layout_weight="1" android:text="15:55" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="1" android:layout_weight="1" android:text="16:05" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="2" android:layout_weight="1" android:text="16:10" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="3" android:layout_weight="1" android:text="17:00" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+  </TableRow>
+  <TableRow android:gravity="center" android:weightSum="4">
+			<TextView android:layout_column="0" android:layout_weight="1" android:text="16:20" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="1" android:layout_weight="1" android:text="16:30" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="2" android:layout_weight="1" android:text="16:35" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="3" android:layout_weight="1" android:text="17:30" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+  </TableRow>
+  <TableRow android:gravity="center" android:weightSum="4">
+			<TextView android:layout_column="0" android:layout_weight="1" android:text="16:45" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="1" android:layout_weight="1" android:text="16:55" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="2" android:layout_weight="1" android:text="17:00" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+			<TextView android:layout_column="3" android:layout_weight="1" android:text="18:00" android:padding="5px" android:gravity="center" android:textStyle="bold" />
+  </TableRow>
+  
+</TableLayout>
+
+</ScrollView>
+</LinearLayout>

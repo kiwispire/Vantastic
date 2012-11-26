@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  >
+
+<TextView android:id="@+id/Title"
+	android:layout_height="wrap_content"  
+	android:text="VANTASTIC!" 
+	android:textSize="45sp" 
+	android:textStyle="bold" 
+	android:textColor="#0F0" 
+	android:layout_width="fill_parent" 
+	android:padding="10dp" 
+	android:gravity="center">
+	</TextView>
+	
+	<LinearLayout android:orientation="horizontal" 
+	android:baselineAligned="false"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_vertical"
+	android:weightSum="2.0"
+	android:id="@+id/iconrow">
+	
+<!-- InterOffice Timetable Button -->
+
+	<RelativeLayout android:layout_weight="1.0" 
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content" 
+	android:clickable="true"
+	android:id="@+id/InterOffice"
+	android:layout_gravity="center_vertical">
+	<ImageButton android:layout_height="wrap_content"
+	    android:contentDescription="@string/interoffice"
+		android:layout_width="wrap_content" 
+		android:id="@+id/InterOfficeButton" 
+		android:src="@drawable/timetable" 
+		android:tag="Timetable" 
+		android:layout_gravity="center"
+		android:layout_centerHorizontal="true"
+		android:background="#000" 
+		android:scaleType="centerInside"
+		android:clickable="true">
+		</ImageButton>
+	
+	<TextView android:layout_below="@+id/InterOfficeButton"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/interoffice" 
+ 		android:textColor="#FFF"
+ 		android:gravity="center_horizontal">
+ 		</TextView>
+ 	</RelativeLayout>
+ 	
+<!-- Airport Timetable Button -->
+ 	<RelativeLayout android:layout_weight="1.0" 
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content" 
+	android:clickable="true"
+	android:id="@+id/Airport"
+	android:layout_gravity="center_vertical">
+	<ImageButton android:layout_height="wrap_content" 
+	    android:contentDescription="@string/airport"
+		android:layout_width="wrap_content" 
+		android:id="@+id/AirportButton" 
+		android:src="@drawable/timetable" 
+		android:tag="Timetable" 
+		android:layout_gravity="center"
+		android:layout_centerHorizontal="true"
+		android:background="#000" 
+		android:scaleType="centerInside"
+		android:clickable="true">
+		</ImageButton>
+	
+	<TextView android:layout_below="@+id/AirportButton"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/airport" 
+ 		android:textColor="#FFF"
+ 		android:gravity="center_horizontal">
+ 		</TextView>
+ 	</RelativeLayout>
+ 	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:baselineAligned="false"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+		<RelativeLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_gravity="left"
+		    android:layout_marginTop="10dp"
+		    android:layout_weight="1.0"
+		    android:clickable="true" >
+
+		    <ImageButton
+		        android:id="@+id/ContactButton"
+		        android:contentDescription="@string/contact"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:layout_gravity="left"
+		        android:background="#000"
+		        android:clickable="true"
+		        android:scaleType="centerInside"
+		        android:src="@drawable/contact"
+		        android:tag="Contact" />
+
+		    <TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/ContactButton"
+		        android:gravity="center_horizontal"
+		        android:text="@string/contact"
+		        android:textColor="#FFF" />
+		</RelativeLayout>
+
+	</LinearLayout>
+ 	
+ 	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="bottom|right"
+	android:id="@+id/ver"
+	android:text="@string/appversion"
+	android:textColor="#0AF"
+	/>
+ 		
+</LinearLayout>

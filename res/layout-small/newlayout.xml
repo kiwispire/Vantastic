@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  >
+
+<TextView android:id="@+id/Title"
+	android:layout_height="wrap_content"  
+	android:text="VANTASTIC!" 
+	android:textSize="45sp" 
+	android:textStyle="bold" 
+	android:textColor="#0F0" 
+	android:layout_width="fill_parent" 
+	android:padding="10px" 
+	android:gravity="center">
+	</TextView>
+	
+	<LinearLayout android:orientation="horizontal" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:weightSum="3.0"
+	android:id="@+id/iconrow">
+	
+<!-- InterOffice Timetable Button -->
+	<RelativeLayout android:layout_weight="1.0" 
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content" 
+	android:clickable="true"
+	android:id="@+id/InterOffice"
+	android:layout_gravity="center_vertical">
+	<ImageButton android:layout_height="wrap_content" 
+	    android:contentDescription="@string/interoffice"
+		android:layout_width="wrap_content" 
+		android:id="@+id/InterOfficeButton" 
+		android:src="@drawable/timetable" 
+		android:tag="Timetable" 
+		android:layout_gravity="center"
+		android:layout_centerHorizontal="true"
+		android:background="#000" 
+		android:scaleType="centerInside"
+		android:clickable="true">
+		</ImageButton>
+	
+	<TextView android:layout_below="@+id/InterOfficeButton"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/interoffice" 
+ 		android:textColor="#FFF"
+ 		android:gravity="center_horizontal">
+ 		</TextView>
+ 	</RelativeLayout>
+ 	
+<!-- Airport Timetable Button -->
+ 	<RelativeLayout android:layout_weight="1.0" 
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content" 
+	android:clickable="true"
+	android:id="@+id/Airport"
+	android:layout_gravity="center_vertical">
+	<ImageButton android:layout_height="wrap_content" 
+	    android:contentDescription="@string/airport"
+		android:layout_width="wrap_content" 
+		android:id="@+id/AirportButton" 
+		android:src="@drawable/timetable" 
+		android:tag="Timetable" 
+		android:layout_gravity="center"
+		android:layout_centerHorizontal="true"
+		android:background="#000" 
+		android:scaleType="centerInside"
+		android:clickable="true">
+		</ImageButton>
+	
+	<TextView android:layout_below="@+id/AirportButton"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/airport" 
+ 		android:textColor="#FFF"
+ 		android:gravity="center_horizontal">
+ 		</TextView>
+ 	</RelativeLayout>
+ 	
+<!-- 	<RelativeLayout android:layout_weight="1.0" 
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:layout_gravity="center_vertical">
+	<ImageButton android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:id="@+id/FindAShuttle" 
+		android:src="@drawable/findshuttle" 
+		android:tag="FindAShuttle" 
+		android:layout_gravity="center"
+		android:layout_centerHorizontal="true"
+		android:background="#000" 
+		android:scaleType="centerInside">
+		</ImageButton>
+	
+	<TextView android:layout_below="@+id/FindAShuttle"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:text="Find A Shuttle" 
+ 		android:textColor="#FF0"
+ 		android:gravity="center_horizontal">
+ 		</TextView>
+ 	</RelativeLayout> -->
+ 	
+ 	<RelativeLayout android:layout_weight="1.0" 
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:layout_gravity="center_vertical"
+	android:clickable="true">
+	<ImageButton android:layout_height="wrap_content" 
+	    android:contentDescription="@string/contact"
+		android:layout_width="wrap_content" 
+		android:id="@+id/ContactButton" 
+		android:src="@drawable/contact" 
+		android:tag="Contact" 
+		android:layout_gravity="center"
+		android:layout_centerHorizontal="true"
+		android:background="#000" 
+		android:scaleType="centerInside"
+		android:clickable="true">
+		</ImageButton>
+	
+	<TextView android:layout_below="@+id/ContactButton"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/contact" 
+ 		android:textColor="#FFF"
+ 		android:gravity="center_horizontal">
+ 		</TextView>
+ 	</RelativeLayout>
+ 	</LinearLayout>
+ 	
+ 	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="bottom|right"
+	android:id="@+id/ver"
+	android:text="@string/appversion"
+	android:textColor="#0AF"
+	/>
+ 		
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Vantastic!</string>
+    <string name="title">Table Title</string>
+    <string name="changelog">v1.2.2 \n This change log is beta please press your &quot;Back&quot; key to return to the application.</string>
+    <string name="wellingtonshuttle">From 4th July 2011, we no longer operate the Wellington Shuttle services.  There are several alternatives availabe: \n \n * The Wellington Airport Flyer Bus runs every 15 minutes and costs $8.50 one-trip.  It has leather seats, air-conditioning and free wi-fi.  You can find it just outside the baggage area, to the right. \n \n \n * Take a taxi (preferably sharing with other Telecom folk) using one of our preferred suppliers (refer to the intranet).</string>
+    <string name="appversion">v 1.2.4 - Last Updated 14th August 2012</string>
+    
+    <string name="interoffice">InterOffice Timetable</string>
+    <string name="airport">Airport Timetable</string>
+    <string name="contact">Contact Us</string>
+    <string name="arrive">Arrive</string>
+    <string name="depart">Departs</string>
+    <string name="GPS">Gathering current location</string>
+        
+</resources>
